@@ -1,0 +1,68 @@
+$primary: #daae4f;
+$secondary: #00c79c;
+$thirdindary: #b4ffef;
+
+.white {
+    background-color: white;
+}
+
+// action section
+.action {
+    height: 200px;
+    margin: 20px;
+    .action-text {
+        // max-width: 600px;
+        text-align: center;
+    }
+    a{
+        margin: 30px auto;
+    }
+}
+
+// about-me section
+.about-me{
+    background-color: $primary;
+    width: 100%;
+    height: 400px;
+    .container {
+        background-color: $primary;
+        align-items: center;
+        max-width: 800px;
+        .anneliis {
+            height: 350px;
+            width: 300px;
+            object-fit: cover;
+            margin: 25px;
+        }
+        div {
+            .aboutme-text {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// portfolio section
+.portfolio {
+    height: 400px;
+    flex-wrap: wrap;
+    .card {
+        height: 230px;
+        margin: auto;
+        border: none;
+    }
+    .port-card {
+        justify-content: space-around;
+        img {
+            height: 190px;
+            object-fit: cover;
+        }
+        .card-body{
+            height: 40px;
+        }
+        .card-text {
+            text-align: center;
+        }
+    }
+}
+
