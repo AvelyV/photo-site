@@ -1,11 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .white {
   background-color: white;
 }
