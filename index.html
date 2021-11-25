@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/index.css">
     <title>Anneliis Voore</title>
 </head>
@@ -64,17 +69,19 @@
 
     <!-- action -->
     <div class="container">
-        <div class="action">
-            <div class="action-text">Teeme sinu unistused teoks!</div>
-            <div class="action-text">Olgu selleks fantaasiaküllane fotosessioon või täispikk pulmapäev!</div>
-            <div class="d-flex"><a href="#" class="btn btn-primary">VÕTA ÜHENDUST</a></div>
+        <div class="action d-flex">
+                <div class="center">
+                <div class="action-text">Teeme sinu unistused teoks!</div>
+                <div class="action-text">Olgu selleks fantaasiaküllane fotosessioon või täispikk pulmapäev!</div>
+                <div class="d-flex"><a href="#" class="btn btn-primary primary-color shadow">PARIMAD PALAD</a></div>
+            </div>
         </div>
     </div>
 
 <!-- about-me section -->
     <div class="about-me">
         <div class="container d-flex d-sm-flex">
-            <img src="/img/anneliis.jpg" alt="anneliis" class="anneliis">
+            <img src="/img/anneliis.jpg" alt="anneliis" class="anneliis shadow">
             <div>
                 <div class="aboutme-text">Fantaasia ja pulmafotograaf</div>
                 <p class="aboutme-text">ANNELIIS VOORE</p>
@@ -88,33 +95,55 @@
     <!-- portfolio section -->
     <div class="container d-flex d-sm-flex portfolio">
 
-        <div class="card port-card" style="width: 18rem;">
-            <img src="img/viking.JPG" class="card-img-top" alt="...">
+        <div class="card port-card shadow" style="width: 18rem;">
+            <a href="#"><img src="img/viking.JPG" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <p class="card-text">FANTAASIA</p>
             </div>
           </div>
 
-          <div class="card port-card" style="width: 18rem;">
-            <img src="img/family.JPG" class="card-img-top" alt="...">
+          <div class="card port-card shadow" style="width: 18rem;">
+            <a href="#"><img src="img/family.JPG" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <p class="card-text">PERE</p>
             </div>
           </div>
 
-          <div class="card port-card" style="width: 18rem;">
-            <img src="img/wedding.JPG" class="card-img-top" alt="...">
+          <div class="card port-card shadow" style="width: 18rem;">
+            <a href="#"><img src="img/wedding.JPG" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <p class="card-text">PULMAD</p>
             </div>
           </div>
 
-          <div class="card port-card" style="width: 18rem;">
-            <img src="img/portrait.JPG" class="card-img-top" alt="...">
+          <div class="card port-card shadow" style="width: 18rem;">
+            <a href="#"><img src="img/portrait.JPG" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <p class="card-text">PORTREE</p>
             </div>
           </div>
+
+    </div>
+
+    <!-- large image section -->
+    <div class="image-section">
+        <div>
+            <p class="image-section-text">Kui oled juba lapsepõlvest saati unistanud olla üheks päevaksmuinasjutu kangelane või sul on soov luua maagilisest hetkest mälestused,mis ei unune, siis saan mina sind aidata!</p>
+            <div class="d-flex"><a href="#" class="btn btn-primary primary-color shadow">VÕTA ÜHENDUST</a></div>
+        </div>
+    </div>
+
+    <!-- feedback sectio -->
+    <div class="container d-flex flex-wrap justify-content-center">
+        <div class="feedback-card d-flex shadow">
+            <img src="../img/budu.jpg" alt="" class="feedback-img">
+            <div class="feedback-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia porro quam explicabo ullam quasi corrupti architecto rerum minus obcaecati quidem. Accusantium veniam exercitationem consequatur facilis.</div>
+        </div>
+
+        <div class="feedback-card d-flex shadow">
+            <img src="../img/sunshine.jpg" alt="" class="feedback-img">
+            <div class="feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste animi, esse repellat explicabo adipisci eum commodi reiciendis eveniet veniam corrupti? Distinctio eligendi officiis sit iusto quaerat eius consectetur.</div>
+        </div>
     </div>
     
 </body>

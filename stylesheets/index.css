@@ -1,10 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .white {
   background-color: white;
+}
+
+.primary-color {
+  background-color: #caab6c;
 }
 
 .action {
   height: 200px;
   margin: 20px;
+}
+
+.action .center {
+  margin: auto;
 }
 
 .action .action-text {
@@ -16,13 +32,13 @@
 }
 
 .about-me {
-  background-color: #daae4f;
+  background-color: #caab6c;
   width: 100%;
   height: 400px;
 }
 
 .about-me .container {
-  background-color: #daae4f;
+  background-color: #caab6c;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -35,6 +51,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin: 25px;
+  border-radius: 5px;
 }
 
 .about-me .container div .aboutme-text {
@@ -42,7 +59,6 @@
 }
 
 .portfolio {
-  height: 400px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -51,6 +67,8 @@
   height: 230px;
   margin: auto;
   border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio .port-card {
@@ -70,5 +88,61 @@
 
 .portfolio .port-card .card-text {
   text-align: center;
+}
+
+.image-section {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/wedding2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-section .image-section-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.image-section a {
+  margin: 30px auto;
+}
+
+.feedback-card {
+  background-color: #caab6c;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.feedback-card .feedback-img {
+  height: 250px;
+  width: 200px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px;
+}
+
+.feedback-card .feedback-text {
+  padding: 20px;
+}
+
+.shadow {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 /*# sourceMappingURL=index.css.map */

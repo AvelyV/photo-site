@@ -1,15 +1,28 @@
-$primary: #daae4f;
+$primary: #caab6c;
 $secondary: #00c79c;
 $thirdindary: #b4ffef;
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
 .white {
     background-color: white;
+}
+
+.primary-color {
+    background-color: $primary;
 }
 
 // action section
 .action {
     height: 200px;
     margin: 20px;
+    .center {
+        margin: auto;
+    }
     .action-text {
         // max-width: 600px;
         text-align: center;
@@ -24,6 +37,7 @@ $thirdindary: #b4ffef;
     background-color: $primary;
     width: 100%;
     height: 400px;
+
     .container {
         background-color: $primary;
         align-items: center;
@@ -33,6 +47,7 @@ $thirdindary: #b4ffef;
             width: 300px;
             object-fit: cover;
             margin: 25px;
+            border-radius: 5px;
         }
         div {
             .aboutme-text {
@@ -44,12 +59,17 @@ $thirdindary: #b4ffef;
 
 // portfolio section
 .portfolio {
-    height: 400px;
+    // height: 400px;
     flex-wrap: wrap;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
     .card {
         height: 230px;
         margin: auto;
         border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
     }
     .port-card {
         justify-content: space-around;
@@ -66,3 +86,46 @@ $thirdindary: #b4ffef;
     }
 }
 
+// image section
+.image-section{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/wedding2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .image-section-text {
+        max-width: 500px;
+        text-align: center;
+    }
+    a{
+        margin: 30px auto;
+    }
+}
+
+// feedback section
+
+.feedback-card {
+    background-color: $primary;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    .feedback-img {
+        height: 250px;
+        width: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    .feedback-text {
+        padding: 20px;
+    }
+}
+
+.shadow {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
