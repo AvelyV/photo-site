@@ -1,4 +1,4 @@
-$primary: #d19f71;
+$primary: #94897e;
 $secondary: #00c79c;
 $thirdindary: #b4ffef;
 
@@ -16,6 +16,14 @@ $thirdindary: #b4ffef;
     background-color: $primary;
 }
 
+.primary-color-btn{
+    transition: transform 0.3s;
+    &:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    border: 1px solid $primary;
+    transform: scale(1.02);
+    }
+}
 // action section
 .action {
     height: 200px;
